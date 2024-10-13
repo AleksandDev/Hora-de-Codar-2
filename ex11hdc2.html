@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = parseInt(prompt("Digite um número: "));
+        var b = parseInt(prompt("Escolha a operação: 1 - Adição, 2 - Subtração, 3 - Divisão, 4 - Multiplicação"));
+        var c = parseInt(prompt("Digite outro número: "));
+        if (b === 1) {
+        alert("Adição: " + (a + c));
+        } else if (b === 2) {
+        alert("Subtração: " + (a - c));
+        } else if (b === 3) {
+        if (c === 0) {
+        alert("Divisão por zero não é permitida!");
+        } else {
+        alert("Divisão: " + (a / c));
+    }
+        } else if (b === 4) {
+        alert("Multiplicação: " + (a * c));
+    } else {
+        alert("Operação inválida!");
+}
+    </script>
+</body>
+</html>

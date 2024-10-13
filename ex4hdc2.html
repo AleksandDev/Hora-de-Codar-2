@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var valor1 = parseFloat(prompt("Digite o primeiro valor:"));
+        var valor2 = parseFloat(prompt("Digite o segundo valor:"));
+        var valor3 = parseFloat(prompt("Digite o terceiro valor:"));
+        var maior, segundoMaior;
+          if (valor1 > valor2) {
+            if (valor1 > valor3) {
+                maior = valor1;
+            } else {
+                maior = valor3;
+            }
+        } else {
+            if (valor2 > valor3) {
+                maior = valor2;
+             } else {
+                maior = valor3;
+             }
+             }
+             var somaDosMaiores = maior + segundoMaior;
+             alert("A soma dos dois maiores valores é: " + somaDosMaiores);
+    </script>
+</body>
+</html>

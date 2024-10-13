@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercico_js11</title>
+</head>
+<body>
+    <script>
+ var verificacao = 0
+ var verificacao = 0
+        var listanumeros = []
+        var soma = 0
+        while (verificacao <=6) {
+            var numero = parseInt(prompt('Digite o ' + (verificacao + 1) + 'º número.'));
+            listanumeros.push(numero)
+            verificacao++
+        }
+        for (numero of listanumeros) {
+            if (numero < 72) {
+            soma += numero
+        }
+    }
+        alert('Soma dos números menores que 72: ' + soma)
+        </script>
+</body>
+</html>
